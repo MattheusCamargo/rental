@@ -2,10 +2,7 @@ version: "3.8"
 
 services:
   rentalpro:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    image: rentalpro:latest
+    image: ghcr.io/mattheuscamargo/rental:latest
     container_name: rentalpro_app
     restart: always
     environment:
